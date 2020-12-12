@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Курсовая работа</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/choices.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header_flex">
+      <button class="burger_btn" aria-label="Меню"></button>
+      <a class="header_logo focus" href="index.html"><img src="img/Лого.svg" alt="Blanchard художественная галерея"></a>
+      <button class="search_btn" aria-label="Поиск"></button>
+      <nav class="header_nav">
+        <ul class="header_list">
+          <li class="header_item"><a class="header_el focus hover active" href="#">О нас</a></li>
+          <li class="header_item"><a class="header_el focus hover active" href="#">Галерея</a></li>
+          <li class="header_item"><a class="header_el focus hover active" href="#">Каталог</a></li>
+          <li class="header_item"><a class="header_el focus hover active" href="#">События</a></li>
+          <li class="header_item"><a class="header_el focus hover active" href="#">Издания</a></li>
+          <li class="header_item"><a class="header_el focus hover active" href="#">Проекты</a></li>
+          <li class="header_item"><a class="header_el focus hover active" href="#">Контакты</a></li>
+        </ul>
+      </nav>
+      <a class="header_link focus hover" href="#">Войти</a>
+    </div>
+
+  </header>
+  <header class="header_bot">
+    <div class="container">
+      <div class="header_bot_nav">
+        <ul class="header_bot_list">
+          <li class="header_bot_link">
+            <select class="header_bot_selects">
+              <option>Реализм</option>
+              <option>Вариант1</option>
+              <option>Вариан2</option>
+              <option>Вариан3</option>
+            </select> </li>
+          <li class="header_bot_link">
+            <select class="header_bot_selects">
+              <option>Импрессионизм</option>
+              <option>Вариант1</option>
+              <option>Вариан2</option>
+              <option>Вариан3</option>
+            </select> </li>
+          <li class="header_bot_link">
+            <select class="header_bot_selects">
+              <option>Постимпрессионизм</option>
+              <option>Вариант1</option>
+              <option>Вариан2</option>
+              <option>Вариан3</option>
+            </select> </li>
+          <li class="header_bot_link">
+            <select class="header_bot_selects">
+              <option>Авангард</option>
+              <option>Вариант1</option>
+              <option>Вариан2</option>
+              <option>Вариан3</option>
+            </select> </li>
+          <li class="header_bot_link">
+            <select class="header_bot_selects">
+              <option>Футуризм</option>
+              <option>Вариант1</option>
+              <option>Вариан2</option>
+              <option>Вариан3</option>
+            </select> </li>
+        </ul>
+        <form class="header_bot_form">
+          <input aria-label="Введите поисковой запрос" class="header_bot_input" type="text" name="search"
+            placeholder="Поиск по сайту">
+          <button aria-label="Поиск" class="header_bot_btn"></button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero_head">
+        Прикоснитесь к прекрасному
+      </h1>
+      <p class="hero_text">
+        Мы вынуждены отталкиваться от того, что реализация намеченных плановых заданий создаёт предпосылки для новых
+        предложений.
+      </p>
+      <a class="hero_link" href="#">
+        Подписаться на рассылку
+      </a>
+    </div>
+  </section>
+  <section class="about">
+    <div class="container">
+      <h2 class="about_head h2_style">О нас</h2>
+      <p class="about_text text_style">Ясность нашей позиции очевидна: семантический разбор внешних противодействий
+        однозначно определяет каждого участника как способного принимать собственные решения касаемо распределения
+        внутренних резервов и ресурсов. Не следует, однако, забывать, что высококачественный прототип будущего проекта
+        влечет за собой процесс внедрения и модернизации модели развития. Повседневная практика показывает, что высокое
+        качество позиционных исследований создаёт необходимость включения в производственный план целого ряда
+        внеочередных мероприятий с учётом комплекса распределения внутренних резервов и ресурсов. В рамках спецификации
+        современных стандартов, действия представителей оппозиции набирают популярность среди определенных слоев
+        населения, а значит, должны быть разоблачены.</p>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <div class="container">
+      <div class="gallery_block">
+        <h2 class="gallery_h2 h2_style">Галерея</h2>
+        <div class="gallery_text">Фильтровать по:</div>
+        <select class="gallery_select">
+          <option>Автор</option>
+          <option>Направление</option>
+          <option>Техника</option>
+        </select>
+        <div class="gallery_description gallery_description1">
+          Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества
+          скачиваний <a class="gallery_link" href="#">авторизуйтесь,</a> либо воспользуйтесь лицензией.
+        </div>
+      </div>
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle1.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle2.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle3.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle4.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle5.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle6.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle7.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle8.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle9.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle10.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle11.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle12.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle13.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle14.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle15.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle16.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle17.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle18.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle19.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle20.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle21.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle22.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle23.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle24.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle25.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle26.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle27.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle28.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle29.jpg" alt="Картина маслом"></div>
+          <div class="swiper-slide gallery_img"><img src="../img/slide/Rectangle30.jpg" alt="Картина маслом"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-prev"></div>
+        <div class="swiper-next"></div>
+      </div>
+      <div class="gallery_description gallery_description2">
+        Вам предоставляется 10 бесплатных скачиваний. Для увеличения количества
+        скачиваний <a class="gallery_link" href="#">авторизуйтесь,</a> либо воспользуйтесь лицензией.
+      </div>
+    </div>
+  </section>
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="../js/choices.min.js"></script>
+  <script src="../js/my1.js"></script>
+  <script src="../js/my2.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
